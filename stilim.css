@@ -15,6 +15,23 @@ body{
 .card-body{
     background-color:cadetblue;
 }
+h3.card-title{
+    font-size:24px;
+    
+}
+h5.card-title{
+    font-size: 30px;
+}
+p.card-text{
+font-size:20px;
+}
+h6.card-title{
+background-color: cadetblue;
+text-align: center;
+margin-top: 15px;
+height: 50px;
+font-size: 25px;
+}
 .navbar{
     background-color:indianred;
     position: relative;
@@ -24,6 +41,47 @@ body{
     margin-left: 10px;
     font-family:sans-serif;
 }
+form{
+    text-align: center;
+}
+.sayfa{
+    width: 700px;
+    margin: 0 auto;
+}
+form{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.sliderKonum{
+    position: relative;
+    width: 700px;
+    height: 400px;
+    overflow: hidden;
+}
+img-bir{left: 0px;}
+img-iki{left: 700px;}
+img-uc{left: 1400px;}
+img-4{left: 2100px;}
+img-5{left: 2800px;}
+
+.sliderKonum > .slider{
+    position: absolute;
+    left:0px;
+    width: 2800px;
+    height: 400px;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-name: sliders;
+    -webkit-animation-iteration-count:infinite;
+    -moz-animation-duration: 10s;
+    -moz-animation-name: sliders;
+    -moz-animation-iteration-count:infinite;
+    -ms-animation-duration: 10s;
+    -ms-animation-name: sliders;
+    -ms-animation-iteration-count:infinite;
+    animation-duration: 10s;
+    animation-iteration-count:infinite;
+  }
+
 footer{
     position:relative;
     bottom: 0px;
