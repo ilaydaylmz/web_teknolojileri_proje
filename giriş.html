@@ -1,45 +1,78 @@
-<html>
-   <head>
-      <meta charset="UTF-8">
-      <title>WEB SİTESİ TASARIMI</title>
-      <link href="stilim.css" type="text/css" rel="stylesheet" />
+<!doctype html>
+<html lang="tr">
+   <head> 
+     <meta charset="UTF-8">
+     <title>ANA SAYFA TASARIMI</title>
+     <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	  <link href="stilim.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower|Pacifico|Shadows+Into+Light|Ubuntu" rel="stylesheet">
     </head>
     <body>
-       <div class="container">
-          <div class ="navbar">
-             <div class="logo">
-                 <h1>İLAYDA</h1>
-                 <h1>YILMAZ</h1>
-                </div>
-                <ul>
-                    <li><a href="hakkımda.html" target="_blank">HAKKIMDA</a></li>
-                   <li><a href="özgeçmiş.html" target="_blank">ÖZ GEÇMİŞ</a></li>
-                  <li><a href="şehrim.html" target="_blank">ŞEHRİM</a></li>
-                  <li><a href="mirasımız.html" target="_blank">MİRASIMIZ</a></li>
-                   <li><a href="ilgialanlarım.html" target="_blank">İLGİ ALANLARIM</a></li>
-                   <li><a href="iletişim.html" target="_blank">İLETİŞİM</a></li>
-                   <li><a href="giriş.html" target="_blank">GİRİŞ YAP</a></li>
-               </ul>
+      <div class="container-fluid">
+        <div class="row mb-5">
+          <div class="col">
+            <nav class="navbar navbar-expand-lg navbar-light bg-a fixed-top">
+              <a class="navbar-brand yazi" style="color:darkslategray;font-size:55px;font-family:fantasy; margin-left:30px;"> İLAYDA<br>YILMAZ</a>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav ">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="anasayfa.html">ANASAYFA <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="özgeçmiş.html">ÖZGEÇMİŞ</a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="şehrim.html">ŞEHRİM</a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="mirasımız.html">MİRASIMIZ</a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="ilgialanlarım.html">İLGİ ALANLARIM</a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="iletişim.html">İLETİŞİM</a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="giriş.html">GİRİŞ</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
           </div>
-          <form action="giriş.php" method="POST">
-               <table align="center">
-                    <tr>
-                        <td>KULLANICI ADI</td>
-                        <td>:</td>
-                        <td><input type="text" name="kullanici_adi" required></td>
-                   </tr>
-                    <tr>
-                        <td>ŞİFRE</td>
-                        <td>:</td>
-                        <td><input type="password" name="kullanici_sifre" required></td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td></td>
-                        <td><input type="submit" value="GİRİŞ"></td>
-                    </tr>
-                </table>
-            </form>
-       </div>
-    </body>          
+        </div> 
+        <div class="row bolum1 mt-5 align-items-center">
+          <div class="col">
+            <h1 class="display-1 text-center p-4">GİRİŞ</h1>
+          </div>
+        </div>
+        <form action="giriş.php" method="POST">
+            <table align="center">
+                 <tr>
+                     <td>KULLANICI ADI</td>
+                     <td>:</td>
+                     <td><input type="text" name="kullanici_adi" required></td>
+                </tr>
+                 <tr>
+                     <td>ŞİFRE</td>
+                     <td>:</td>
+                     <td><input type="password" name="kullanici_sifre" required></td>
+                 </tr>
+                 <tr>
+                     <td></td>
+                     <td></td>
+                     <td><input type="submit" value="GİRİŞ"></td>
+                 </tr>
+             </table>
+         </form>
+         <footer class="giriş_footer">
+            SAKARYA ÜNİVERSİTESİ 2020-2021 BAHAR DÖNEMİ<br>
+             BİLGİSAYAR MÜHENDİSLİĞİ BÖLÜMÜ<br>
+               WEB TEKNOLOJİLERİ DERSİ PROJE<br>
+               WEB SİTESİ TASARLAMA
+          </footer>
+      </div>
+    </body>
 </html>
