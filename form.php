@@ -1,0 +1,10 @@
+echo $_GET['isim'];
+echo $_GET['soyadı'];
+echo $_GET['cinsiyet'];
+echo $_GET['hay1'];
+echo $_GET['hay2'];
+echo $_GET['hay3'];
+echo $_GET['telefon'];
+echo $_GET['doğumgunu'];
+echo $_GET['mail'];
+echo $_GET['renkler'];

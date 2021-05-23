@@ -1,101 +1,125 @@
 <!doctype html>
 <html lang="tr">
-   <head> 
-     <meta charset="UTF-8">
-     <title>İLETİŞİM</title>
-     <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <head> 
+    <meta charset="UTF-8">
+    <title>İLETİŞİM</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 	  <link href="stilim.css" rel="stylesheet" type="text/css">
-	<link href="https://fonts.googleapis.com/css?family=Indie+Flower|Pacifico|Shadows+Into+Light|Ubuntu" rel="stylesheet">
-    </head>
-    <body>
-      <div class="container-fluid">
-        <div class="row mb-5">
-          <div class="col">
-            <nav class="navbar navbar-expand-lg navbar-light bg-a fixed-top">
-              <a class="navbar-brand yazi" style="color:darkslategray;font-size:55px;font-family:fantasy; margin-left:30px;"> İLAYDA<br>YILMAZ</a>
-              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav ">
-                  <li class="nav-item active">
-                    <a class="nav-link" href="anasayfa.html">ANASAYFA <span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item active">
-                    <a class="nav-link" href="özgeçmiş.html">ÖZGEÇMİŞ</a>
-                  </li>
-                  <li class="nav-item active">
-                    <a class="nav-link" href="şehrim.html">ŞEHRİM</a>
-                  </li>
-                  <li class="nav-item active">
-                    <a class="nav-link" href="mirasımız.html">MİRASIMIZ</a>
-                  </li>
-                  <li class="nav-item active">
-                    <a class="nav-link" href="ilgialanlarım.html">İLGİ ALANLARIM</a>
-                  </li>
-                  <li class="nav-item active">
-                    <a class="nav-link" href="iletişim.html">İLETİŞİM</a>
-                  </li>
-                  <li class="nav-item active">
-                    <a class="nav-link" href="giriş.html">GİRİŞ</a>
-                  </li>
-                </ul>
-              </div>
-            </nav>
-          </div>
-        </div> 
-        <div class="row bolum1 mt-5 align-items-center">
-          <div class="col">
-            <h1 class="display-1 text-center p-4">İLETİŞİM</h1>
-          </div>
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Pacifico|Shadows+Into+Light|Ubuntu" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row mb-5">
+        <div class="col">
+          <nav class="navbar navbar-expand-lg navbar-light bg-a fixed-top">
+            <a class="navbar-brand yazi" style="color:darkslategray;font-size:55px;font-family:fantasy; margin-left:30px;"> İLAYDA<br>YILMAZ</a>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+              <ul class="navbar-nav ">
+                <li class="nav-item active">
+                  <a class="nav-link" href="anasayfa.html">ANASAYFA <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="özgeçmiş.html">ÖZGEÇMİŞ</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="şehrim.html">ŞEHRİM</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="mirasımız.html">MİRASIMIZ</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="ilgialanlarım.html">İLGİ ALANLARIM</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="iletişim.html">İLETİŞİM</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="giriş.html">GİRİŞ</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
         </div>
-        <form  name="iletişim" action="form.php" name="form" method="POST">
-            AD:<input type="text" name="ad"><br><br>
-            SOYAD:<input type="text" name="soyadı"><br><br>
-            CİNSİYET:<br>
-            <input type="radio" name="cinsiyet" value="erkek"> Erkek<br>
-            <input type="radio" name="cinsiyet" value="kadin"> Kadın<br><br>
-            SEVDİĞİNİZ HAYVANLARI SEÇİNİZ:<br>
-            <input type="checkbox" name="hay1" value="kedi">KEDİ
-            <br>
-            <input type="checkbox" name="hay2" value="köpek">KÖPEK
-            <br>
-            <input type="checkbox" name="hay3" value="panda">PANDA
-            <br><br>
-            CEP TELEFONU:
-            <input type="tel" name="telefon"><br><br>
-            DOĞUM GÜNÜNÜZ:<br>
-            <input type="date" name="doğumgunu"><br><br>
-            E MAİL:<br>
-            <input type="email" name="mail"><br><br>
-            EN SEVDİĞİNİZ RENK:<br>
-            <select name="renkler">
-                <option>SEÇİNİZ</option>
-                <option value="mor">MOR</option>
-                <option value="mavi">MAVİ</option>
-                <option value="sarı">SARI</option>
-                <option value="kırmızı">KIRMIZI</option>
-                <option value="pembe">PEMBE</option>
-            </select><br><br>
-            SİTE İLE İLGİLİ FİKİR VE GÖRÜŞLERİNİZ:<br>
-            <textarea name="mesaj" rows="7" cols="40"></textarea><br><br>
-            <input type="submit" value="Gönder">
-            <input type="reset" value="TEMİZLE"><br><br>
-        </form>
-        <script>
-          "use strict";
-          var form=document.forms["iletişim"];
-          var ad= form.ad;
-          var 
-        </script>
+      </div>
     </div> 
-</div> 
-</div>
-<footer>
-SAKARYA ÜNİVERSİTESİ 2020-2021 BAHAR DÖNEMİ<br>
- BİLGİSAYAR MÜHENDİSLİĞİ BÖLÜMÜ<br>
-   WEB TEKNOLOJİLERİ DERSİ PROJE<br>
-   WEB SİTESİ TASARLAMA
-</footer>
-</body>
+    <div class="row bolum1 mt-5 align-items-center">
+      <div class="col">
+        <h1 class="display-1 text-center p-4">İLETİŞİM</h1>
+      </div>
+    </div>
+    <form  name="iletişim" action="form.php" name="form" method="POST">
+      AD:<input type="text" name="ad"><br><br>
+      SOYAD:<input type="text" name="soyadı"><br><br>
+      CİNSİYET:<br>
+      <input type="radio" name="cinsiyet" value="erkek"> Erkek<br>
+      <input type="radio" name="cinsiyet" value="kadin"> Kadın<br><br>
+      SEVDİĞİNİZ HAYVANLARI SEÇİNİZ:<br>
+      <input type="checkbox" name="hay1" value="kedi">KEDİ<br>
+      <input type="checkbox" name="hay2" value="köpek">KÖPEK<br>
+      <input type="checkbox" name="hay3" value="panda">PANDA<br><br>
+      CEP TELEFONU:
+      <input type="tel" name="telefon"><br><br>
+      DOĞUM GÜNÜNÜZ:<br>
+      <input type="date" name="doğumgunu"><br><br>
+      E MAİL:<br>
+      <input type="email" name="mail"><br><br>
+      EN SEVDİĞİNİZ RENK:<br>
+      <select name="renkler">
+        <option>SEÇİNİZ</option>
+        <option value="mor">MOR</option>
+        <option value="mavi">MAVİ</option>
+        <option value="sarı">SARI</option>
+        <option value="kırmızı">KIRMIZI</option>
+        <option value="pembe">PEMBE</option>
+      </select><br><br>
+      SİTE İLE İLGİLİ FİKİR VE GÖRÜŞLERİNİZ:<br>
+      <textarea name="mesaj" rows="7" cols="40"></textarea><br><br>
+      <input type="submit" value="Gönder">
+      <input type="reset" value="TEMİZLE"><br><br>
+    </form>
+    <script>
+      "use strict";
+      var form=document.forms["iletişim"];
+      var ad= form.ad;
+      var soyadı= form.soyadı;
+      var cinsiyet= form.cinsiyet;
+      var telefon=form.telefon;
+      var doğumgunu=form.doğumgunu;
+      var mail= form.mail;
+      formGiris.onsubmit = function() {
+    if (isim==null ||isim=="") {
+      alert("isim boş bırakılamaz.");
+      return false;  
+    } 
+    if(soyadı=null||soyadı=="")
+    {
+       allert("soyadı boş bırakılamaz.")
+       return false;
+    }
+    if (cinsiyet==null||cinsiyet=="") {
+      alert("seçin yappınız.");
+      return false;  
+    } 
+    if (telefon==null ||telefon=="") {
+      alert("telefon boş bırakılamaz.");
+      return false;  
+    } 
+    if (doğumgunu==null ||doğumgunu=="") {
+      alert("doğum günü boş bırakılamaz.");
+      return false;  
+    } 
+    if (mail==null ||mail=="") {
+      alert("mail boş bırakılamaz.");
+      return false;  
+    } 
+    </script>
+    <footer>
+      SAKARYA ÜNİVERSİTESİ 2020-2021 BAHAR DÖNEMİ<br>
+      BİLGİSAYAR MÜHENDİSLİĞİ BÖLÜMÜ<br>
+      WEB TEKNOLOJİLERİ DERSİ PROJE<br>
+      WEB SİTESİ TASARLAMA
+    </footer>
+  </body>
 </html>
-        
