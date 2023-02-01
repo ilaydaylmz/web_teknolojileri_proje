@@ -1,4 +1,4 @@
-# web_teknolojileri_proje
+# KİŞİSEL WEB SİTESİ 
 <dl>
 <dt> projenin amacı:</dt>
 <dd>derste öğrenilen bilgiler kullanılarak kendimi ve yaşadığım şehri tanıtan kişisel bir web sitesi tasarlamak.</dd>
